@@ -1,7 +1,7 @@
 const express = require('express');
 const { Web3 } = require('web3');
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 // Initialize Web3 with your GuapcoinX node URL
 const web3 = new Web3('https://rpc-mainnet.guapcoinx.com');
